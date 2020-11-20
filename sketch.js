@@ -30,7 +30,6 @@ function setup() {
     mango4 = new Mango(600,380,50);
     mango5 = new Mango(700,450,50);
     slingshot = new Slingshot(stone.body,{x:105,y:570});
-
 	Engine.run(engine);
   
 }
@@ -56,7 +55,6 @@ function draw() {
   detectollision(stone,mango3);
   detectollision(stone,mango4);
   detectollision(stone,mango5);
-
   drawSprites();
  
 }
